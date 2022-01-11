@@ -1,0 +1,35 @@
+:root {
+    --vermelho: #e50914;
+    --preto: #141414;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--preto);
+}
+
+.btn {
+    padding: 4px 7px;
+    position: absolute;
+    background-color: transparent;
+    border: none;
+   
+} 
+
+.btn a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+    
+}
+
+.video {
+    text-align: center;
+}
